@@ -6,23 +6,23 @@ import java.sql.SQLException;
 
 public class DBConnector {
 
-	/**
-	* JDBC ドライバー名
+	/* 
+	 JDBC ドライバー名
 	*/
 	private static String driverName = "com.mysql.cj.jdbc.Driver";
 	
-	/**
-	* データベース接続 URL
+	/*
+	 データベース接続 URL
 	*/
 	private static String url = "jdbc:mysql://localhost/testdb";
 	
-	/**
-	* データベース接続ユーザ名
+	/*
+	 データベース接続ユーザ名
 	*/
 	private static String user = "root";
 	
-	/**
-	* データベース接続パスワード
+	/*
+	 データベース接続パスワード
 	*/
 	private static String password = "mysql";
 	
